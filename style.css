@@ -9,7 +9,6 @@ p {
 }
 
 ul {
-  display: inline-block;
   position: relative;
   display: flex;
   align-items: center;
@@ -26,14 +25,9 @@ a {
   display: block;
   font-size: 1.5rem;
   text-decoration: none;
-  color: black;
   box-sizing: border-box;
   padding: 10px;
   color: rgba(0, 0, 0, 0.87);
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 body {
@@ -183,6 +177,10 @@ footer {
 
 footer a {
   color: #70757a;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 #places {
